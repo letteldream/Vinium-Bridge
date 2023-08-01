@@ -5,8 +5,8 @@ export const Vinium = (props) => (
     id="Layer_2"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 601.49 102.8"
-    width="129"
-    height="32"
+    width="150"
+    height="50"
     {...props}
   >
     <defs>

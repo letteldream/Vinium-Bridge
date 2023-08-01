@@ -142,6 +142,8 @@ export function Widget({
         allow: starterVariant === TabsMap.Refuel.value ? refuelAllowChains : [],
       },
       containerStyle: {
+        border:'1px solid',
+        borderColor: theme.palette.grey[600],
         borderRadius: '12px',
         boxShadow: !isDarkMode
           ? '0px 2px 4px rgba(0, 0, 0, 0.08), 0px 8px 16px rgba(0, 0, 0, 0.08)'

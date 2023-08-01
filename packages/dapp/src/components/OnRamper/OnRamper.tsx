@@ -19,7 +19,7 @@ export const OnRamper = () => {
     background: removeHash(theme.palette.surface1.main),
     primaryColor: removeHash(theme.palette.primary.main),
     secondaryColor: removeHash(
-      theme.palette.mode === 'light' ? theme.palette.grey[100] : '#302B52',
+      theme.palette.mode === 'light' ? theme.palette.grey[100] : '#2754DC',
     ),
     cardColor: removeHash(theme.palette.surface2.main),
     primaryTextColor: removeHash(

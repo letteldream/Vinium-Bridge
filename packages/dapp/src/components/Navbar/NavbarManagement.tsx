@@ -69,8 +69,8 @@ const NavbarManagement = () => {
         isSuccess={isSuccess}
       />
       {account.isActive ? <ChainSwitch /> : null}
-      <ThemeSwitch />
-      <NavbarDropdownButton
+      {/* <ThemeSwitch /> */}
+      {/* <NavbarDropdownButton
         ref={mainMenuAnchor}
         id="composition-button"
         aria-controls={openMainNavbarMenu ? 'composition-menu' : undefined}
@@ -84,7 +84,7 @@ const NavbarManagement = () => {
             color: 'inherit',
           }}
         />
-      </NavbarDropdownButton>
+      </NavbarDropdownButton> */}
     </NavbarManagementContainer>
   );
 };
